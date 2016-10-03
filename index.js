@@ -13,7 +13,7 @@ exports = module.exports = camelCase;
 function camelCase(str) {
 	str = str || '';
 	if (str.length <= 0) {
-		return new TypeError('First argument must be a string') ;
+		return new TypeError('First argument has to be a string') ;
 	}
 	return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function(letter, index) {
 		return index == 0 ? letter.toLowerCase() : letter.toUpperCase();
