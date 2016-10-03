@@ -1,9 +1,9 @@
 # node-camel-case
-A node module to kebab case a string — /ie: `camelCase`
+A node module to camel case any string — /ie: `camelCase`
 
 ##Overview
 
-Use this module when you need to convert a string to camel case
+Use this module when you need to convert a string to camel case in your project
 
 ##Installing 
 
