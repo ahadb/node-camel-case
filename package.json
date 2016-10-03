@@ -1,0 +1,38 @@
+{
+  "name": "node-camel-case",
+  "version": "0.0.1",
+  "description": "Convert any string to camel case",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahadb/node-camel-case.git"
+  },
+  "keywords": [
+    "node",
+    "camel",
+    "case",
+    "string",
+    "convert"
+  ],
+  "engines": {
+    "node": ">4.2.4"
+  },
+  "author": "Ahad Bokhari <ahadbokhari@gmail.com> (http://ahadb.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahadb/node-camel-case.git/issues"
+  },
+  "homepage": "https://github.com/ahadb/node-camel-case.git#readme",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "standard": {
+    "ignore": [
+      "/test/test.js",
+      "app.js"
+    ]
+  }
+}
